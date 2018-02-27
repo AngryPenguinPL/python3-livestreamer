@@ -13,7 +13,7 @@ BuildRequires:  python3egg(setuptools)
 BuildRequires:  python3egg(requests)
 BuildRequires:  python3egg(sphinx)
 BuildRequires:  python3egg(singledispatch)
-BuildRequires:  python3egg(urllib3)
+BuildRequires:  python-urllib3
 BuildRequires:  dos2unix
 Conflicts:	python-%{oname}
 BuildArch:      noarch
