@@ -2,7 +2,7 @@
 
 Name:           python3-%{oname}
 Version:        1.12.2
-Release:        4
+Release:        1
 License:        BSD and MIT
 Summary:        Extracts streams and pipes them into a video player of choice
 Url:            http://livestreamer.tanuki.se/
@@ -87,11 +87,5 @@ chmod +x %{buildroot}%{py3_puresitedir}/%{oname}/plugins/tv3cat.py
 
 %check
 %{__python3} setup.py test
-
-
-%changelog
-
-* Thu Mar 02 2017 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1.12.2-4
-- (51d3a7a) MassBuild#1273: Increase release tag
 
 
