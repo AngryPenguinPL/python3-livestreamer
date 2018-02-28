@@ -14,8 +14,8 @@ BuildRequires:  python3egg(requests)
 BuildRequires:  python3egg(sphinx)
 BuildRequires:  python3egg(singledispatch)
 BuildRequires:  python-urllib3
-BuildRequires:  dos2unix
-Conflicts:	python-%{oname}
+BuildRequires:  dos2unix >= 7.3
+Conflicts:  python-%{oname}
 BuildArch:      noarch
 
 %description
