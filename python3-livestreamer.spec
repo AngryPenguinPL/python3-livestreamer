@@ -8,7 +8,7 @@ Summary:        Extracts streams and pipes them into a video player of choice
 Url:            http://livestreamer.tanuki.se/
 Group:          Sound
 Source:         https://pypi.python.org/packages/source/l/%{oname}/%{oname}-%{version}.tar.gz
-BuildRequires:  pkgconfig(python3)
+BuildRequires:  pkgconfig(python)
 BuildRequires:  python3egg(setuptools)
 BuildRequires:  python3egg(requests)
 BuildRequires:  python3egg(sphinx)
