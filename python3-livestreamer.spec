@@ -14,7 +14,7 @@ BuildRequires:  python-requests
 BuildRequires:  python-sphinx
 BuildRequires:  python-singledispatch
 BuildRequires:  python-urllib3
-BuildRequires:  dos2unix
+Requires: dos2unix
 Conflicts:  python-%{oname}
 BuildArch:      noarch
 
