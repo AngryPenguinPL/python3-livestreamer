@@ -9,11 +9,11 @@ Url:            http://livestreamer.tanuki.se/
 Group:          Sound
 Source:         https://pypi.python.org/packages/source/l/%{oname}/%{oname}-%{version}.tar.gz
 BuildRequires:  pkgconfig(python)
-BuildRequires:  python3egg(setuptools)
-BuildRequires:  python3egg(requests)
-BuildRequires:  python3egg(sphinx)
-BuildRequires:  python3egg(singledispatch)
-BuildRequires:  python3egg(urllib)
+BuildRequires:  pkgconfig(setuptools)
+BuildRequires:  pkgconfig(requests)
+BuildRequires:  pkgconfig(sphinx)
+BuildRequires:  pkgconfig(singledispatch)
+BuildRequires:  pkgconfig(urllib)
 BuildRequires:  dos2unix
 Conflicts:  python-%{oname}
 BuildArch:      noarch
