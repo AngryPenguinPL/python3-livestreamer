@@ -49,8 +49,8 @@ rm -rf src/livestreamer.egg-info
 %{__python3} setup.py build
 
 # Generate man page and html documentation (needs python-sphinx)
-%{__python3} setup.py build_sphinx -b man
-%{__python3} setup.py build_sphinx -b html
+#{__python3} setup.py build_sphinx -b man
+#{__python3} setup.py build_sphinx -b html
 
 pushd build/lib/livestreamer/packages/flashmedia
 find . -type f -name "*.py" -exec chmod +x {} \;
