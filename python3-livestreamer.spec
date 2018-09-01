@@ -78,7 +78,7 @@ mv objects.inv.utf8 %{buildroot}%{_docdir}/%{oname}/html/objects.inv
 dos2unix %{buildroot}%{_docdir}/%{oname}/html/objects.inv
 
 # Sphinx info file for hashing, no longer needed 
-rm %{buildroot}%{_docdir}/%{oname}/html/.buildinfo
+#rm %{buildroot}%{_docdir}/%{oname}/html/.buildinfo
 pushd %{buildroot}%{py3_puresitedir}/%{oname}/packages/flashmedia
 chmod -x {types,box,amf,compat,ordereddict}.py
 popd
