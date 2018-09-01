@@ -61,7 +61,7 @@ popd
 
 # install man page
 install -p -d -m755 %{buildroot}%{_mandir}/man1
-install -p -m644 build/sphinx/man/%{oname}.1 %buildroot%{_mandir}/man1/%{oname}.1
+#install -p -m644 build/sphinx/man/%{oname}.1 %buildroot%{_mandir}/man1/%{oname}.1
 
 # install html docs
 install -p -d -m755 %{buildroot}%{_docdir}/%{oname}
