@@ -11,7 +11,7 @@ Source:         https://pypi.python.org/packages/source/l/%{oname}/%{oname}-%{ve
 BuildRequires:  pkgconfig(python)
 BuildRequires:  python-setuptools
 BuildRequires:  python-requests
-BuildRequires:  python-sphinx
+#BuildRequires:  python-sphinx
 BuildRequires:  python-singledispatch
 BuildRequires:  python-urllib3
 BuildRequires: dos2unix
